@@ -48,7 +48,7 @@ public class StatsProfile {
 
     public Document toBson() {
         return new Document("_id", this.uuid.toString())
-                .append("rank", this.kills)
+                .append("rank", this.rank)
                 .append("kills", this.kills)
                 .append("deaths", this.deaths)
                 .append("points", this.points)
