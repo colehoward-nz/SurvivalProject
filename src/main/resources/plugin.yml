@@ -1,0 +1,7 @@
+name: SurvivalProject
+version: '${project.version}'
+main: me.cole.survivalproject.SurvivalProject
+api-version: '1.20'
+commands:
+  Rank:
+    description: Set the rank of a player
