@@ -5,3 +5,14 @@ api-version: '1.20'
 commands:
   Rank:
     description: Set the rank of a player
+  SetSpawn:
+    description: Set the server spawn
+  Spawn:
+    description: Teleport to spawn
+  Teleport:
+    description: Teleport to a player, or a player to another player
+  Gamemode:
+    description: Change the gamemode of a player
+  Fly:
+    description: Toggle flight mode for a player
+

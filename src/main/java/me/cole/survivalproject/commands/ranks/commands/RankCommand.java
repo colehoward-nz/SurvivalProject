@@ -17,7 +17,7 @@ import java.util.List;
 public class RankCommand implements CommandExecutor {
     private final ProfileManager profileManager;
     private List<Rank> ranks = new ArrayList<>(
-            Arrays.asList(Rank.OWNER, Rank.DEV, Rank.ADMIN, Rank.MOD, Rank.HELPER, Rank.DEFAULT)
+            Arrays.asList(Rank.OP, Rank.DEFAULT)
     );
 
     public RankCommand(ProfileManager profileManager){

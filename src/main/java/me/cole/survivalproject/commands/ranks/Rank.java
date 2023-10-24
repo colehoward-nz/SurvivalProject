@@ -7,11 +7,7 @@ import org.bukkit.entity.Player;
 
 @Getter
 public enum Rank {
-    OWNER("Owner", ChatColor.RED, false, false),
-    DEV("Dev", ChatColor.DARK_PURPLE, false, false),
-    ADMIN("Admin", ChatColor.GOLD, false, false),
-    MOD("Mod", ChatColor.DARK_GREEN, false, false),
-    HELPER("Helper", ChatColor.DARK_AQUA, false, false),
+    OP("OP", ChatColor.RED, false, false),
     DEFAULT("", ChatColor.GRAY, false, false);
 
     private final String name;

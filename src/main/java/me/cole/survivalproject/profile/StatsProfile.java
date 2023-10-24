@@ -30,7 +30,7 @@ public class StatsProfile {
 
     public StatsProfile(UUID uuid) {
         this.uuid = uuid;
-        this.rank = "User";
+        this.rank = "Default";
         this.kills = 0;
         this.deaths = 0;
         this.points = 0;
